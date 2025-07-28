@@ -109,7 +109,13 @@ Master: [overall processing] → [limiter settings]
 
 ### Key/Scale Best Practices
 
-**ALWAYS use `./random_key.py` for key selection** - avoid manually choosing mainstream keys.
+**MANDATORY: Always use `./random_key.py` for key selection** - never manually choose keys.
+
+**3-Attempt Rule:**
+- Run `./random_key.py` up to 3 times if first result doesn't fit genre
+- Example: Got "C Major" for dark techno? Run 2 more times
+- Choose the best fitting scale from your 3 attempts
+- This balances randomness with genre appropriateness
 
 **When Script Says "Use note pattern directly"**:
 - ✅ "C-Db-E-F-Gb-Ab-Bb" → exotic scale without confusion
@@ -119,11 +125,12 @@ Master: [overall processing] → [limiter settings]
 - ✅ "F Natural Minor", "G Dorian", "A Harmonic Minor"
 - ✅ Standard modal names that Suno recognizes correctly
 
-**Why This Matters**:
+**Why This System Works**:
+- Weighted randomness prevents mainstream predictability
+- 3-attempt rule allows genre-appropriate selection
 - Exotic scales create emotionally evocative leads
 - Dissonance adds tension and interest in electronic music
-- Mainstream major keys are overused and predictable
-- The generator ensures variety while avoiding confusion
+- Prevents agents from defaulting to boring major keys
 
 ### MIX + MASTER Section (Quality Multiplier)
 
@@ -215,64 +222,285 @@ Chorus lyrics
 (—sound effect—) [timing and mix notes]
 ```
 
-### Effective Lyrics Principles
+### Professional Lyrics Writing Techniques
 
-**Structure:**
-- Clear song sections with descriptive production notes
-- Vocal style guidance in section headers
-- Sound effects and samples integrated rhythmically
+**CRITICAL: Avoid Cliché and Generic Content**
+- Never use overused rap phrases or predictable rhymes
+- Write from authentic perspective, not generic "flexing"
+- Avoid forced rhymes that don't serve the meaning
+- Study successful artists' techniques, don't copy their content
 
-**Vocal Direction:**
-- Specify vocal character: "whispered", "aggressive", "breathy"
-- Processing notes: "echoed", "flattened", "pitch-shifted"
-- Multiple voices: indicate layers and harmonies
+**Advanced Rhyme Schemes (Essential for Hip-Hop)**
+- **Internal rhymes**: Place rhymes within lines, not just at ends
+- **Irregular patterns**: Use AABX schemes (X = non-rhyming line for natural flow)
+- **Break established patterns**: Disrupt expected rhythms for impact
+- **Multisyllabic rhymes**: Match multiple syllables, not just end sounds
+- **Avoid same vowel sounds**: Don't rhyme "-ee" sounds throughout entire section
+
+**Flow and Rhythm Mastery**
+- **16-bar verse structure**: Standard hip-hop format with precise beat alignment
+- **Syllable counting**: Match syllable density to beat patterns
+- **Diphthongs**: Use vowel combinations for smoother fast delivery
+- **Natural speech patterns**: Write conversational, not forced poetic
+
+**Wordplay and Literary Devices**
+- **Double entendres**: Words with multiple meanings in context
+- **Metaphors/similes**: Fresh comparisons, avoid overused ones
+- **Synecdoche**: Part represents whole (e.g., "wheels" for car)
+- **Alliteration**: Strategic, not excessive
+- **Avoid nursery rhyme patterns**: Don't sound childish
+
+**Storytelling Structure**
+- **Narrative progression**: Each verse advances the story
+- **Character development**: Show growth or change
+- **Concrete imagery**: Specific details over vague concepts
+- **Emotional arc**: Build tension and resolution
+- **Conversational authenticity**: "Tell your truth"
+
+**Hip-Hop Specific Techniques**
+- **Punchlines**: Sharp, clever conclusions to verses
+- **Cultural references**: Current, relevant, not dated
+- **Delivery markers**: Write for rhythm and emphasis
+- **Battle rap elements**: Clever wordplay and wit
+- **Beat integration**: Write to complement, not fight the track
 
 **Production Integration:**
 - Samples and sound effects in parentheses
-- Mix notes in square brackets
+- Mix notes in square brackets  
 - Rhythmic integration with backing track
+- Vocal processing guidance in section headers
 
-**No Character Limit** - Suno handles long lyrics well, use full creative expression.
+**Common Clichés to AVOID:**
+- Generic "money, cars, chains" flexing without substance
+- Overused rhymes: "game/fame", "street/beat", "real/feel"  
+- Predictable punchlines everyone has heard
+- Dated slang or references
+- Forced rhymes that sacrifice meaning
+- Basic ABAB rhyme schemes throughout
+- "Yo, yo, yo" or similar filler words
+- Generic party/club descriptions
+- Obvious internal rhymes (lazy/crazy, money/honey)
+
+**Quality Control Checklist:**
+- [ ] No cliché phrases or overused rhymes
+- [ ] Complex rhyme schemes with internal rhymes
+- [ ] Natural flow that matches beat rhythm
+- [ ] Authentic voice and perspective
+- [ ] Progressive narrative or thematic development
+- [ ] Fresh metaphors and wordplay
+- [ ] Proper song structure with clear sections
+
+**Example: Avoiding Cliché**
+
+❌ **Cliché/Cringe Version:**
+```
+I'm on the block making money every day
+Got my chain and my car, that's the only way
+Haters gonna hate but I don't really care
+I'm living my life, money everywhere
+```
+
+✅ **Professional Version:**
+```
+Corner store fluorescents flicker on my grind (internal: flicker/grind)
+Twenty-hour shifts got me losing track of time (AABX pattern)
+Pockets light but vision heavy, dreams on layaway
+While my neighbors count their blessings, I count days
+```
+
+**Why It Works:**
+- Specific imagery ("fluorescent flicker") over generic ("on the block")
+- Internal rhymes without forcing
+- AABX rhyme scheme creates natural flow
+- Authentic struggle narrative vs. empty flexing
+- Fresh metaphors ("dreams on layaway")
+
+**No Character Limit** - Suno handles long lyrics well, use full creative expression while maintaining quality.
+
+## Genre-Specific Lyric Writing Techniques
+
+### General Songwriting Principles (All Genres)
+
+**Universal Best Practices:**
+- **Simplicity and repetition**: What gets repeated gets remembered
+- **Emotional authenticity**: Write from genuine experience, not manufactured personas
+- **Clear central message**: One coherent theme throughout the song
+- **Memorability over complexity**: Could a child sing this back?
+- **Consistent practice**: Write regularly to develop your unique voice
+- **Study successful tracks**: Learn from songs in your target genre
+
+**Structural Fundamentals:**
+- **Strong hook/chorus**: The most memorable and singable section
+- **Verse storytelling**: Advance narrative or develop theme
+- **Bridge contrast**: Different perspective or musical departure
+- **Cohesive flow**: Lyrics should fit rhythm and melody naturally
+
+### Punk Rock
+
+**Core Philosophy:**
+- **Raw authenticity over polish**: Emotion and passion over technical perfection
+- **Direct, simple language**: Short, punchy phrases that cut through noise
+- **Social commentary**: Address injustice, rebellion, personal struggles
+- **DIY ethos**: Break rules, do things your own way
+
+**Technical Approach:**
+- **Straightforward structures**: Verse-chorus-verse-chorus-bridge-chorus
+- **Aggressive vocal delivery**: Shouting, snarling, passionate expression
+- **Repetitive choruses**: Easy to sing along, memorable slogans
+- **Fast, driving rhythms**: Match intensity with tempo
+- **Authenticity over rhyme perfection**: Message clarity prioritized
+
+**Avoid:** Overly complex poetry, perfect pitch requirements, lengthy elaborate verses
+
+### Rock Music
+
+**Thematic Focus:**
+- **Classic rock**: Nostalgia, rebellion, freedom, human experience
+- **Grunge**: Alienation, authenticity, raw emotion
+- **Alternative**: Individual expression, non-conformity
+
+**Songwriting Techniques:**
+- **Guitar-driven composition**: Write with/around main riffs and chord progressions
+- **Anthemic choruses**: Big, singable, emotionally resonant
+- **Narrative verses**: Tell stories, paint vivid scenes
+- **Dynamic range**: Quiet verses building to explosive choruses
+- **Collaborative writing**: Work with band members, especially guitarists
+
+**Structural Elements:**
+- **Strong instrumental hooks**: Memorable riffs that define the song
+- **Key and tempo matching**: Musical elements support lyrical emotion
+- **Build and release**: Create tension and resolution patterns
+
+### Pop Music
+
+**Commercial Songwriting:**
+- **Audience-focused**: Write with listeners and radio play in mind
+- **Maximum catchiness**: Every element designed for memorability
+- **Simple, accessible melodies**: Easy to sing and remember
+- **Broad appeal**: Themes that resonate with wide audiences
+- **Strategic repetition**: Hooks repeated for maximum impact
+
+**Professional Standards:**
+- **Clear, coherent lyrics**: One message throughout the song
+- **Emotional connection**: Authentic feelings that resonate deeply
+- **Standard song structures**: Familiar patterns audiences expect
+- **Radio-friendly length**: Typically 3-4 minutes
+- **Strong first impression**: Hook listeners immediately
+
+**Lyrical Approach:**
+- **Universal themes**: Love, relationships, personal growth, dreams
+- **Relatable scenarios**: Situations most people have experienced
+- **Conversational tone**: Natural, not overly poetic
+- **Positive or empowering**: Often uplifting or aspirational
+
+### Electronic/EDM
+
+**Unique Considerations:**
+- **Instrumental focus**: Music is primary, vocals are complementary
+- **Rhythm and timbre priority**: Less emphasis on traditional melody/harmony
+- **Loop-based structure**: Vocals must work with repetitive elements
+- **Genre-specific timing**: Build-ups, drops, breakdowns at expected moments
+
+**Vocal Integration:**
+- **Strategic placement**: Vocals highlight key moments (drops, builds)
+- **Vocal chops and samples**: Fragmented vocals as rhythmic elements
+- **Atmospheric vocals**: Ethereal, processed, ambient textures
+- **Call-and-response**: Vocals that interact with instrumental elements
+
+**EDM-Specific Structures:**
+- **Intro-breakdown-buildup-drop**: Standard EDM progression
+- **Verse storytelling**: Set up the emotional journey to the drop
+- **Euphoric choruses**: Big, immersive, festival-ready moments
+- **Minimal lyrics**: Let the music carry the emotional weight
+- **Vocal effects**: Heavy processing, pitch shifting, filtering
+
+**Genre Variations:**
+- **House/Techno**: Repetitive, hypnotic, minimal vocals
+- **Dubstep/Trap**: Aggressive, rhythmic, vocal chops
+- **Future Bass**: Pop-influenced, melodic, catchy vocals
+- **Progressive**: Evolving, cinematic, emotional journey
+
+### Common Clichés to Avoid (All Genres)
+
+**Overused Themes:**
+- Generic party/club descriptions
+- Shallow materialism without substance  
+- Predictable love song tropes
+- Tired rebellion clichés
+- Obvious rhyming patterns
+
+**Technical Pitfalls:**
+- Forcing rhymes that sacrifice meaning
+- Using filler words to complete lines
+- Overly complex vocabulary that sounds unnatural
+- Repetitive rhyme schemes throughout entire song
+- Dated slang or references
+
+**Quality Control for All Genres:**
+- [ ] Authentic voice and perspective
+- [ ] Genre-appropriate themes and language
+- [ ] Natural flow that matches musical rhythm
+- [ ] Fresh metaphors and imagery
+- [ ] Clear emotional arc or narrative progression
+- [ ] Memorable, singable elements
+- [ ] Proper song structure for target genre
+- [ ] **MANDATORY: File saved to lyrics/ directory with descriptive name**
+
+**No Character Limit** - Suno handles long lyrics well, use full creative expression while maintaining quality and genre authenticity.
 
 ## Workflow
 
 ### Style Prompt Creation Process
 
-1. **Generate key with `./random_key.py`** - never choose manually
-2. **Start with template structure** (tempo, genre, generated key)
+1. **MANDATORY: Generate key with `./random_key.py`** - never choose manually
+   - If scale doesn't fit genre, run up to 3 times total
+   - Choose the best fitting scale from your attempts
+2. **Start with template structure** (tempo, genre, selected key)
 3. **Add technical specifications** (instruments, processing)  
 4. **Include MIX + MASTER section** for quality boost
-5. **Validate character count**: `./validate_style.sh`
+5. **MANDATORY: Validate character count with `./validate_style.sh`**
 6. **Optimize if needed** - use abbreviations, compact notation
-7. **Re-validate until "okay ✓"**
-8. **Save as descriptive .md filename**
+7. **MANDATORY: Re-validate with `./validate_style.sh` until "okay ✓"**
+8. **MANDATORY: Save to styles/ directory as .md file** with descriptive filename
 
-### Character Optimization Loop
+**CRITICAL FILE SAVING REQUIREMENTS:**
+- **ALWAYS save style prompts** to `styles/[BPM]-[GENRE]-[KEY]-[MOOD].md`
+- **ALWAYS save lyrics** to `lyrics/[THEME]-[GENRE]-[MOOD].md`
+- **Never just output to console** - user needs files for Suno usage
+- **Use descriptive filenames** that identify genre, mood, tempo, key
+- **No markdown formatting inside files** - pure text only to save characters
+
+### Character Optimization Loop (MANDATORY)
 
 ```bash
-# Draft your prompt
+# MANDATORY: Validate your draft prompt
 ./validate_style.sh "your draft prompt"
+
 # If "too short ⚠": Expand technical details (priority order):
 #   1. MIX + MASTER processing chains
 #   2. Filtering specifications (LPF, HPF, band-pass)
 #   3. Effects processing (delay, reverb, modulation)
+
 # If "no no ✗": Optimize with abbreviations
 # - Replace words with abbreviations  
 # - Use compact notation (→, ♭, #)
 # - Combine similar descriptors
 # - Remove redundant words
-# Repeat until "okay ✓"
+
+# MANDATORY: Repeat validation until "okay ✓"
+./validate_style.sh "optimized prompt"
 ```
 
 ### Quality Checklist
 
 **Essential Elements:**
+- [ ] **MANDATORY: Random key generated with `./random_key.py` (up to 3 attempts)**
 - [ ] BPM and genre specified
 - [ ] Key/scale information (notes for exotic scales)
 - [ ] Specific instrument models (909, 808, Juno, Moog, etc.)
 - [ ] MIX + MASTER section with technical details
-- [ ] Character count 800-975 (validated with script)
-- [ ] Descriptive filename saved in styles/
+- [ ] **MANDATORY: Character count 800-975 validated with `./validate_style.sh`**
+- [ ] **MANDATORY: File saved to styles/ directory with descriptive name**
 
 **Optimization Check:**
 - [ ] Maximum use of music abbreviations
@@ -280,6 +508,7 @@ Chorus lyrics
 - [ ] No redundant descriptions
 - [ ] Technical density maximized
 - [ ] Clear arrangement guidance without overwhelming detail
+- [ ] **MANDATORY: Final validation passed with "okay ✓"**
 
 ### Expanding "Too Short" Prompts
 
