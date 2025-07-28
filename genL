@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Suno Lyrics Generator Wrapper  
+# Usage: ./generate_lyrics "melancholic love song about lost time"
+
+if [ $# -eq 0 ]; then
+    echo "Usage: ./generate_lyrics \"song theme/concept\""
+    echo "Example: ./generate_lyrics \"melancholic love song about lost time\""
+    exit 1
+fi
+
+# Combine all arguments into single prompt
+prompt="$*"
+
+echo "📝 Generating Lyrics for: $prompt"
+echo "---"
+
+# Call Claude with lyrics-specific prompt and bypass permissions
+claude -p "ultrathink, create lyrics for: $prompt" --permission-mode bypassPermissions
