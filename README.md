@@ -1,4 +1,4 @@
-# Su - Mu - Ma
+# su - mu - ma
 
 Make Music with Suno
 
