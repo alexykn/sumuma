@@ -80,32 +80,32 @@ cat styles/some_prompt.md | ./validate_style.sh
 
 ```
 [TEMPO] BPM [GENRE] — [KEY/SCALE]
-[Key notes if exotic scale] — [mood/feel descriptor]
-[Instrumentation sources/style]; [vocal notes]
+[Atmospheric descriptors, cultural context, aesthetic vibe]
+[Instrumentation and sonic character in descriptive language]
+[Arrangement structure and energy progression]
 
 MIX + MASTER
-[Instrument]: [source] → [processing chain] → [EQ/comp settings]
-[Next instrument]: [same pattern]
-Master: [overall processing] → [limiter settings]
+[Brief main mix elements with essential processing]
+Master: [overall character and final processing]
 ```
 
 ### Character Optimization Techniques
 
-**Use Music Abbreviations:**
-- BPM, Hz, dB, ms, LPF, HPF, EQ, Comp
-- "909 BD", "808 sub", "TB-303", "Juno-106"
-- "GR" (gain reduction), "LS" (low shelf), "HC" (high cut)
+**Atmospheric Language:**
+- Vivid descriptors: "gritty", "crystalline", "saturated", "haunting"
+- Cultural references: era-specific gear, studio locations, artist influences
+- Sonic textures: "warm analog saturation", "digital crunch", "vintage shimmer"
+- Spatial descriptions: "basement rawness", "cathedral reverb", "intimate close-mic"
 
-**Compact Notation:**
-- "→" instead of "routed to" or "sent to"
-- "1-♭2-6-♭7" for interval patterns
-- "4:1, 2 dB GR" for compression settings
-- "+2 dB @ 30 Hz" for EQ moves
+**Essential Technical Elements:**
+- Key gear references: "MPC", "SP-1200", "Juno", "Moog", "Marshall"
+- Basic processing: "compression", "saturation", "filtering", "limiting"
+- Simple notation: "→" for signal flow
 
-**Efficient Punctuation:**
-- Use bullet points for sections
-- Semicolons to separate related ideas
-- Parentheses for brief technical notes
+**Descriptive Efficiency:**
+- Combine atmosphere with function: "tape-saturated drums", "tube-warmed bass"
+- Cultural context shortcuts: "90s boom-bap", "warehouse techno", "bedroom pop lo-fi"
+- Mood-driven descriptions over technical specs
 
 ### Key/Scale Best Practices
 
@@ -132,7 +132,7 @@ Master: [overall processing] → [limiter settings]
 - Dissonance adds tension and interest in electronic music
 - Prevents agents from defaulting to boring major keys
 
-### MIX + MASTER Section (Quality Multiplier)
+### MIX + MASTER Section (Focused Approach)
 
 **Why It Works:**
 - Suno understands detailed audio processing
@@ -141,10 +141,10 @@ Master: [overall processing] → [limiter settings]
 
 **Essential Elements:**
 ```
-Kick: [drum machine] → [saturation/comp] → [EQ curve]
-Bass: [synth type] → [filter] → [compression] → [stereo processing]
-[Other instruments]: [similar technical chains]
-Master: [metering target] → [limiter type and settings]
+Drums: [character description] → [key processing]
+Bass: [sonic character] → [essential treatment] 
+[1-2 main instruments]: [brief processing notes]
+Master: [overall character] → [final polish]
 ```
 
 **Common Processing Chains:**
@@ -152,44 +152,34 @@ Master: [metering target] → [limiter type and settings]
 - "Juno-106 saw → LPF → side-chain → EQ mid cut 250 Hz"
 - "SPAN target –6 dBFS → Pro-L2 Modern, 1.5 dB GR"
 
-### Filtering & Effects Integration
+### Effects and Character Integration
 
-**Approach 1: Separate Sections**
+**Integrated Approach (Preferred):**
 ```
-MIX + MASTER
-[standard processing chains]
-
-FILTERING
-Bass: 18dB LPF opens 64 bars, resonance 30%
-Lead: HPF 80Hz → band-pass sweep 200Hz-2kHz
-
-EFFECTS  
-Delay: 1/8 dotted ping-pong, 18% wet, HC 6kHz
-Reverb: cathedral 3.2s, 45ms pre-delay on pads
+Drums: vintage analog character → punchy compression → room ambience
+Bass: warm tube saturation → rhythmic filtering → subtle stereo spread  
+Lead: crystalline digital texture → ethereal delay → atmospheric reverb
+Master: analog console warmth → transparent limiting
 ```
 
-**Approach 2: Integrated (Preferred for Density)**
-```
-Bass: Juno-106 saw → 18dB LPF opens 64 bars, 30% res → side-chain comp → ping-pong delay 1/8 dotted 18% wet
-```
-
-**Approach 3: Direct Application**
-```
-Acid: TB-303 saw+pulse → bitcrush → delay 1/16, 20% wet, HC 6kHz → filter sweep automation
-```
+**Descriptive Effects Language:**
+- Spatial: "room ambience", "hall reverb", "intimate close-mic", "distant echo"
+- Temporal: "rhythmic filtering", "pulsing compression", "breathing dynamics"
+- Textural: "tape saturation", "digital crunch", "analog warmth", "crystalline shimmer"
 
 ### Arrangement Guidance Philosophy
 
 **What Works:**
-- Rough structural timing ("0:08 kick → 0:24 sub + snare")
-- Key instrument roles and patterns
-- 1-2 melodic instruments with note patterns
-- General energy arc description
+- Energy progression: "builds from intimate whispers to explosive choruses"
+- Atmospheric evolution: "basement-raw intro expanding to cathedral-wide finale" 
+- Cultural/temporal context: "classic 90s boom-bap structure", "warehouse techno journey"
+- Key sonic moments: "drops into heavy compression", "breaks into filtered breakdown"
 
 **What Confuses Suno:**
 - Too many simultaneous instrument specifications
 - Overly complex harmonic analysis
-- Detailed orchestration for 8+ instruments
+- Too many simultaneous technical processing chains
+- Detailed orchestration beyond 3-4 main elements
 
 ### File Naming Convention
 
@@ -497,60 +487,63 @@ While my neighbors count their blessings, I count days
 - [ ] **MANDATORY: Random key generated with `./random_key.py` (up to 3 attempts)**
 - [ ] BPM and genre specified
 - [ ] Key/scale information (notes for exotic scales)
-- [ ] Specific instrument models (909, 808, Juno, Moog, etc.)
-- [ ] MIX + MASTER section with technical details
+- [ ] Atmospheric and cultural descriptors
+- [ ] Sonic character descriptions using vivid language
+- [ ] Compact MIX + MASTER section (focused, not exhaustive)
+- [ ] Energy progression and arrangement flow
 - [ ] **MANDATORY: Character count 800-975 validated with `./validate_style.sh`**
 - [ ] **MANDATORY: File saved to styles/ directory with descriptive name**
 
 **Optimization Check:**
-- [ ] Maximum use of music abbreviations
-- [ ] Compact notation throughout  
-- [ ] No redundant descriptions
-- [ ] Technical density maximized
-- [ ] Clear arrangement guidance without overwhelming detail
+- [ ] Rich atmospheric language and cultural references
+- [ ] Descriptive sonic textures and spatial character
+- [ ] Essential gear and processing (not over-technical)
+- [ ] Clear energy and structural guidance
+- [ ] Vivid, evocative descriptions that paint sonic pictures
 - [ ] **MANDATORY: Final validation passed with "okay ✓"**
 
 ### Expanding "Too Short" Prompts
 
-**Priority 1: MIX + MASTER Details**
-Add specific processing chains for each instrument:
-- Compression ratios, attack/release times
-- EQ moves with frequencies and dB amounts  
-- Saturation/distortion percentages
-- Master limiter settings and headroom targets
+**Priority 1: Atmospheric Descriptors**
+Add vivid cultural and sonic atmosphere:
+- Era-specific aesthetic: "90s basement rawness", "2000s digital crunch"
+- Spatial character: "warehouse reverb", "bedroom intimacy", "cathedral expansiveness"
+- Textural descriptions: "analog tape warmth", "digital crystalline clarity"
+- Cultural references: artist influences, studio locations, scene contexts
 
-**Priority 2: Filtering Specifications**
-- Filter types: "18dB LPF", "12dB HPF", "band-pass 200Hz-2kHz"
-- Automation: "opens 64 bars", "sweep automation", "resonance 30%"
-- Envelope settings: "60ms attack, 400ms release"
+**Priority 2: Compact MIX + MASTER**
+Essential processing character (not detailed chains):
+- Overall drum character and key processing
+- Bass sonic identity and basic treatment
+- 1-2 main instruments with brief processing notes
+- Master bus character and final polish
 
-**Priority 3: Effects Processing**  
-- Delay: timing, wet/dry, high-cut frequencies
-- Reverb: type, decay time, pre-delay amounts
-- Modulation: LFO rates, depth percentages
-- Stereo effects: Haas delays, ping-pong timing
+**Priority 3: Energy and Structure**
+- Dynamic progression: builds, drops, breakdowns
+- Arrangement flow: intro character → verse energy → chorus explosion
+- Sonic evolution throughout the track
 
 **What NOT to Add:**
-- More instruments (confuses arrangement)
-- Generic genre descriptors  
-- Redundant mood words
-- Complex harmonic theory
+- Excessive technical specifications
+- Multiple detailed processing chains  
+- Redundant atmospheric words
+- Complex harmonic analysis
 
 ## Advanced Techniques
 
-### Instrument Specification Patterns
+### Instrument Character Patterns
 
 **Drums:**
-- "909 BD" (bass drum), "808 sub", "909 CH/OH" (closed/open hat)
-- Always specify processing: "→ Comp 4:1 → EQ shelf +2 dB"
+- Source character: "punchy 909 analog warmth", "crispy 808 digital snap"
+- Processing vibe: "vintage compression punch", "tape saturation grit"
 
 **Bass:**
-- Synthesizer model + waveform: "Juno-106 saw+sub", "Moog square"
-- Side-chain and filtering: "side-chained → LPF 18dB"
+- Sonic identity: "warm Moog analog thickness", "crystalline Juno shimmer"  
+- Key treatment: "rhythmic filtering pulse", "tube saturation warmth"
 
 **Leads/Pads:**
-- Layer description: "wide supersaw", "detuned saw-pluck"
-- Effects chain: "ping-pong delay → Haas spread"
+- Textural description: "wide analog supersaw", "intimate digital pluck"
+- Atmospheric processing: "ethereal delay wash", "vintage reverb space"
 
 ### Scale Emotional Mapping (Generated by `./random_key.py`)
 
