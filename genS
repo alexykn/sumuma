@@ -16,4 +16,4 @@ echo "🎵 Generating Suno style prompt for: $prompt"
 echo "---"
 
 # Call Claude with the prompt and bypass permissions
-claude -p "ultrathink generate style prompt for: $prompt" --permission-mode bypassPermissions
+codex exec --full-auto "ultrathink generate style prompt for: $prompt"

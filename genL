@@ -16,4 +16,4 @@ echo "📝 Generating Lyrics for: $prompt"
 echo "---"
 
 # Call Claude with lyrics-specific prompt and bypass permissions
-claude -p "ultrathink, create lyrics for: $prompt" --permission-mode bypassPermissions
+codex exec --full-auto "ultrathink, create lyrics for: $prompt"
