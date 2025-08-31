@@ -62,7 +62,7 @@ cat styles/some_prompt.md | ./validate_style.sh
 
 **Tier 1 (Exceptional)**: Prompts 1-8
 - Highly technical specifications
-- Dedicated MIX + MASTER sections
+- Compact mix/master "feel" one-liner at the end
 - Specific instrument models & settings
 - Dense with musical abbreviations
 
@@ -83,10 +83,7 @@ cat styles/some_prompt.md | ./validate_style.sh
 [Atmospheric descriptors, cultural context, aesthetic vibe]
 [Instrumentation and sonic character in descriptive language]
 [Arrangement structure and energy progression]
-
-MIX + MASTER
-[Brief main mix elements with essential processing]
-Master: [overall character and final processing]
+Mix/Master: [1 line feel only — e.g., "analog warmth, punchy, open, loud-but-dynamic"]
 ```
 
 ### Character Optimization Techniques
@@ -132,25 +129,11 @@ Master: [overall character and final processing]
 - Dissonance adds tension and interest in electronic music
 - Prevents agents from defaulting to boring major keys
 
-### MIX + MASTER Section (Focused Approach)
+### Mix/Master One‑Liner (Minimal)
 
-**Why It Works:**
-- Suno understands detailed audio processing
-- Prevents generic production choices
-- Creates professional, intentional sound design
-
-**Essential Elements:**
-```
-Drums: [character description] → [key processing]
-Bass: [sonic character] → [essential treatment] 
-[1-2 main instruments]: [brief processing notes]
-Master: [overall character] → [final polish]
-```
-
-**Common Processing Chains:**
-- "909 BD → Saturator 40% → Comp 4:1, 2 dB GR"
-- "Juno-106 saw → LPF → side-chain → EQ mid cut 250 Hz"
-- "SPAN target –6 dBFS → Pro-L2 Modern, 1.5 dB GR"
+- Goal: 1 short line at the very end.
+- Focus on intent and feel, not chains.
+- Examples: "analog warmth, tight low-end, wide but clean," "raw, gritty, club‑ready, controlled peaks."
 
 ### Effects and Character Integration
 
@@ -447,7 +430,7 @@ While my neighbors count their blessings, I count days
    - Choose the best fitting scale from your attempts
 2. **Start with template structure** (tempo, genre, selected key)
 3. **Add technical specifications** (instruments, processing)  
-4. **Include MIX + MASTER section** for quality boost
+4. Add optional 1‑line Mix/Master feel at the very end
 5. **MANDATORY: Validate character count with `./validate_style.sh`**
 6. **Optimize if needed** - use abbreviations, compact notation
 7. **MANDATORY: Re-validate with `./validate_style.sh` until "okay ✓"**
@@ -466,10 +449,11 @@ While my neighbors count their blessings, I count days
 # MANDATORY: Validate your draft prompt
 ./validate_style.sh "your draft prompt"
 
-# If "too short ⚠": Expand technical details (priority order):
-#   1. MIX + MASTER processing chains
-#   2. Filtering specifications (LPF, HPF, band-pass)
-#   3. Effects processing (delay, reverb, modulation)
+# If "too short ⚠": Expand high‑value details (priority order):
+#   1. Arrangement and energy markers (builds, breaks, drops)
+#   2. Instrument specifics + performance nuance (articulation, register)
+#   3. Effects and filtering on key parts (LPF/HPF, delay, verb, modulation)
+#   4. Optional: add a single Mix/Master feel line at the end
 
 # If "no no ✗": Optimize with abbreviations
 # - Replace words with abbreviations  
@@ -489,7 +473,7 @@ While my neighbors count their blessings, I count days
 - [ ] Key/scale information (notes for exotic scales)
 - [ ] Atmospheric and cultural descriptors
 - [ ] Sonic character descriptions using vivid language
-- [ ] Compact MIX + MASTER section (focused, not exhaustive)
+- [ ] Optional 1‑line Mix/Master feel at end
 - [ ] Energy progression and arrangement flow
 - [ ] **MANDATORY: Character count 800-975 validated with `./validate_style.sh`**
 - [ ] **MANDATORY: File saved to styles/ directory with descriptive name**
@@ -511,12 +495,11 @@ Add vivid cultural and sonic atmosphere:
 - Textural descriptions: "analog tape warmth", "digital crystalline clarity"
 - Cultural references: artist influences, studio locations, scene contexts
 
-**Priority 2: Compact MIX + MASTER**
-Essential processing character (not detailed chains):
-- Overall drum character and key processing
-- Bass sonic identity and basic treatment
-- 1-2 main instruments with brief processing notes
-- Master bus character and final polish
+**Priority 2: Effects/Texture Specifics**
+Essential, compact notes that color the sound (not chains):
+- Filtering and movement (LPF/HPF, rhythmic gating, side‑chain)
+- Space and texture (room/hall, slap delay, tape grit)
+- Optional: 1‑line Mix/Master feel at the very end if needed
 
 **Priority 3: Energy and Structure**
 - Dynamic progression: builds, drops, breakdowns
@@ -568,4 +551,4 @@ Essential processing character (not detailed chains):
 
 **NEVER manually choose mainstream major keys** - let the weighted generator ensure proper variety and emotional depth.
 
-Use this factory to create prompts that consistently produce professional-quality Suno generations. The technical density, MIX + MASTER sections, and exotic key selection are your secret weapons for superior results.
+Use this factory to create prompts that consistently produce professional-quality Suno generations. Dense, well-aimed content, a compact Mix/Master feel line, and exotic key selection are your secret weapons for superior results.
