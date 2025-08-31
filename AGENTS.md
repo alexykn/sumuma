@@ -180,19 +180,21 @@ Examples:
 
 ### Suno Lyrics Formatting
 
-Use **square brackets** for all segment markers and production notes:
+Use **square brackets** for all segment markers and production notes.
+
+Important: Do not use parentheses (...) for any instructions; Suno will sing them. Always use square brackets [...] for markers, production notes, samples, SFX, processing, timing, and mix notes.
 
 ```
 [Intro – Muted Choir Loop + Static Crackle]
-(sample: "it's falling apart…") [whispered, looped softly in background]
+[sample: "it's falling apart…"] [whispered, looped softly in background]
 
 [Verse 1 – Broken Flow, Half-whispered]
 Your lyrics here
-(—vocal processing notes—) [additional production notes]
+[—vocal processing notes—] [additional production notes]
 
 [Hook – Female Vocal, Echoed + Flattened]
 Chorus lyrics
-(—sound effect—) [timing and mix notes]
+[—sound effect—] [timing and mix notes]
 ```
 
 ### Professional Lyrics Writing Techniques
@@ -238,7 +240,7 @@ Chorus lyrics
 - **Beat integration**: Write to complement, not fight the track
 
 **Production Integration:**
-- Samples and sound effects in parentheses
+- Samples and sound effects in square brackets (never parentheses)
 - Mix notes in square brackets  
 - Rhythmic integration with backing track
 - Vocal processing guidance in section headers
@@ -275,8 +277,8 @@ I'm living my life, money everywhere
 
 ✅ **Professional Version:**
 ```
-Corner store fluorescents flicker on my grind (internal: flicker/grind)
-Twenty-hour shifts got me losing track of time (AABX pattern)
+Corner store fluorescents flicker on my grind [internal: flicker/grind]
+Twenty-hour shifts got me losing track of time [AABX pattern]
 Pockets light but vision heavy, dreams on layaway
 While my neighbors count their blessings, I count days
 ```
